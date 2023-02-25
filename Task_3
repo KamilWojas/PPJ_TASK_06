@@ -1,0 +1,14 @@
+public void zad3() {
+        int ileJestZer = 0, ileJestJedynek = 0;
+        for (int i = 0; i < zad2arr.length; i++) {
+            switch (zad2arr[i]) {
+                case 0:
+                    ileJestZer++;
+                    break;
+                case 1:
+                    ileJestJedynek++;
+                    break;
+            }
+        }
+        System.out.println("Zer jest " + ileJestZer + ", a jedynek jest" + ileJestJedynek);
+    }

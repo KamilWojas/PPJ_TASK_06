@@ -1,0 +1,11 @@
+public void zad7() {
+        String[] slowa = {"Ala", "kota", "ma", "ma", "a", "kot", "Ale"};
+        int[] kolejnosc = {0, 2, 1, 4, 5, 3, 6};
+
+        System.out.println();
+        for (int i : kolejnosc) {
+            System.out.print(slowa[i] + " ");
+        }
+        System.out.println();
+
+    }
